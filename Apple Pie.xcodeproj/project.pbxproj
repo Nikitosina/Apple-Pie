@@ -13,6 +13,8 @@
 		DD436B1A26EF22F90052331C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD436B1826EF22F90052331C /* Main.storyboard */; };
 		DD436B1C26EF22FA0052331C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD436B1B26EF22FA0052331C /* Assets.xcassets */; };
 		DD436B1F26EF22FA0052331C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD436B1D26EF22FA0052331C /* LaunchScreen.storyboard */; };
+		DD436B2726EF38B30052331C /* ListsOfWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD436B2626EF38B30052331C /* ListsOfWords.swift */; };
+		DD436B2A26EF3A8B0052331C /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD436B2926EF3A8B0052331C /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DD436B1B26EF22FA0052331C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD436B1E26EF22FA0052331C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD436B2026EF22FA0052331C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD436B2626EF38B30052331C /* ListsOfWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsOfWords.swift; sourceTree = "<group>"; };
+		DD436B2926EF3A8B0052331C /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		DD436B1126EF22F90052331C /* Apple Pie */ = {
 			isa = PBXGroup;
 			children = (
+				DD436B2826EF3A770052331C /* Model */,
 				DD436B1226EF22F90052331C /* AppDelegate.swift */,
 				DD436B1426EF22F90052331C /* SceneDelegate.swift */,
 				DD436B1626EF22F90052331C /* ViewController.swift */,
@@ -63,8 +68,17 @@
 				DD436B1B26EF22FA0052331C /* Assets.xcassets */,
 				DD436B1D26EF22FA0052331C /* LaunchScreen.storyboard */,
 				DD436B2026EF22FA0052331C /* Info.plist */,
+				DD436B2626EF38B30052331C /* ListsOfWords.swift */,
 			);
 			path = "Apple Pie";
+			sourceTree = "<group>";
+		};
+		DD436B2826EF3A770052331C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD436B2926EF3A8B0052331C /* Game.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD436B2726EF38B30052331C /* ListsOfWords.swift in Sources */,
+				DD436B2A26EF3A8B0052331C /* Game.swift in Sources */,
 				DD436B1726EF22F90052331C /* ViewController.swift in Sources */,
 				DD436B1326EF22F90052331C /* AppDelegate.swift in Sources */,
 				DD436B1526EF22F90052331C /* SceneDelegate.swift in Sources */,
