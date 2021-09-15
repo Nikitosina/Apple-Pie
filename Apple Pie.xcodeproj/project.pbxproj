@@ -15,6 +15,10 @@
 		DD436B1F26EF22FA0052331C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD436B1D26EF22FA0052331C /* LaunchScreen.storyboard */; };
 		DD436B2726EF38B30052331C /* ListsOfWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD436B2626EF38B30052331C /* ListsOfWords.swift */; };
 		DD436B2A26EF3A8B0052331C /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD436B2926EF3A8B0052331C /* Game.swift */; };
+		DDFFDF7026F2396900E61C46 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFFDF6F26F2396900E61C46 /* HomeViewController.swift */; };
+		DDFFDF7326F2624E00E61C46 /* Screenshot1.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFFDF7226F2624E00E61C46 /* Screenshot1.png */; };
+		DDFFDF7526F2626000E61C46 /* Screenshot0.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFFDF7426F2626000E61C46 /* Screenshot0.png */; };
+		DDFFDF7726F262C900E61C46 /* Screenshot2.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFFDF7626F262C900E61C46 /* Screenshot2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		DD436B2026EF22FA0052331C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD436B2626EF38B30052331C /* ListsOfWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsOfWords.swift; sourceTree = "<group>"; };
 		DD436B2926EF3A8B0052331C /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		DDFFDF6F26F2396900E61C46 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DDFFDF7226F2624E00E61C46 /* Screenshot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot1.png; sourceTree = "<group>"; };
+		DDFFDF7426F2626000E61C46 /* Screenshot0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot0.png; sourceTree = "<group>"; };
+		DDFFDF7626F262C900E61C46 /* Screenshot2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +68,11 @@
 		DD436B1126EF22F90052331C /* Apple Pie */ = {
 			isa = PBXGroup;
 			children = (
+				DDFFDF7126F2623900E61C46 /* Screenshots */,
+				DDFFDF6E26F2393A00E61C46 /* View Controllers */,
 				DD436B2826EF3A770052331C /* Model */,
 				DD436B1226EF22F90052331C /* AppDelegate.swift */,
 				DD436B1426EF22F90052331C /* SceneDelegate.swift */,
-				DD436B1626EF22F90052331C /* ViewController.swift */,
 				DD436B1826EF22F90052331C /* Main.storyboard */,
 				DD436B1B26EF22FA0052331C /* Assets.xcassets */,
 				DD436B1D26EF22FA0052331C /* LaunchScreen.storyboard */,
@@ -79,6 +88,25 @@
 				DD436B2926EF3A8B0052331C /* Game.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		DDFFDF6E26F2393A00E61C46 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DD436B1626EF22F90052331C /* ViewController.swift */,
+				DDFFDF6F26F2396900E61C46 /* HomeViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		DDFFDF7126F2623900E61C46 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				DDFFDF7226F2624E00E61C46 /* Screenshot1.png */,
+				DDFFDF7426F2626000E61C46 /* Screenshot0.png */,
+				DDFFDF7626F262C900E61C46 /* Screenshot2.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,8 +168,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD436B1F26EF22FA0052331C /* LaunchScreen.storyboard in Resources */,
+				DDFFDF7526F2626000E61C46 /* Screenshot0.png in Resources */,
 				DD436B1C26EF22FA0052331C /* Assets.xcassets in Resources */,
 				DD436B1A26EF22F90052331C /* Main.storyboard in Resources */,
+				DDFFDF7726F262C900E61C46 /* Screenshot2.png in Resources */,
+				DDFFDF7326F2624E00E61C46 /* Screenshot1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +188,7 @@
 				DD436B1726EF22F90052331C /* ViewController.swift in Sources */,
 				DD436B1326EF22F90052331C /* AppDelegate.swift in Sources */,
 				DD436B1526EF22F90052331C /* SceneDelegate.swift in Sources */,
+				DDFFDF7026F2396900E61C46 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

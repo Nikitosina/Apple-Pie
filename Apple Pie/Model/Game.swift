@@ -11,11 +11,12 @@ struct Game {
     var word: String
     var remainingAttempts: Int
     private var usedLetters: [Character] = []
+    let specialSymbols = [ " ", "-", "(", ")" ]
     
     var guessedWord: String {
         var wordToShow = ""
         for letter in word {
-            if usedLetters.contains(Character(letter.uppercased())) {
+            if usedLetters.contains(Character(letter.uppercased())) || specialSymbols.contains(String(letter)) {
                 wordToShow += String(letter)
             } else {
                 wordToShow += "_"
