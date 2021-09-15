@@ -512,6 +512,7 @@
                             <constraint firstItem="NzQ-Ay-EbN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="XbP-lI-xfA"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ZxH-8g-U6k" secondAttribute="bottom" id="dbp-ro-nTC"/>
                             <constraint firstItem="ZxH-8g-U6k" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ibm-Q6-Vd6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="NzQ-Ay-EbN" secondAttribute="trailing" symbolic="YES" id="wXa-Vb-lxB"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="lp9-H8-tCQ"/>
